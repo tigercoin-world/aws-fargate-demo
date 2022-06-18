@@ -1,20 +1,16 @@
 {
-  "name": "aws-fargate-demo",
+  "name": "web-app",
   "version": "1.0.0",
-  "description": "AWS fargate demo for AWSKRUG-recap",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/novemberde/aws-fargate-demo.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/www"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/novemberde/aws-fargate-demo/issues"
-  },
-  "homepage": "https://github.com/novemberde/aws-fargate-demo#readme"
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
